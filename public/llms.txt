@@ -1,0 +1,15 @@
+# Wickra Copilot
+
+> A local market copilot grounded in real order-book, liquidation and funding microstructure. It derives structured facts from live microstructure with the Wickra core, then answers questions about them through any LLM (or none) — LLM-agnostic and offline-first. The fact-derivation core is deterministic and byte-identical across all ten language bindings.
+
+Wickra Copilot separates grounding from generation: a Rust core folds market microstructure into a structured set of facts (order-book state, liquidation and funding context, derived indicators), exposed as a JSON-over-C-ABI data API in Rust, Python, Node.js, WASM and — over a C ABI — C, C++, C#, Go, Java and R. A small LLM layer (four provider presets plus custom, all optional) turns those grounded facts into answers, so the copilot never hallucinates the market state. Released under the MIT OR Apache-2.0 license.
+
+## Source and packages
+- [GitHub](https://github.com/wickra-lib/wickra-copilot): Source, issues, and releases.
+- [crates.io](https://crates.io/crates/wickra-copilot): Rust crate.
+- [PyPI](https://pypi.org/project/wickra-copilot/): Python package.
+- [npm](https://www.npmjs.com/package/wickra-copilot): Node package.
+
+## Ecosystem
+- [Wickra](https://wickra.org): The core streaming-indicator library the copilot is built on.
+- [Docs](https://docs.wickra.org): Documentation for the Wickra core.
