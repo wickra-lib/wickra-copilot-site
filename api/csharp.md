@@ -24,5 +24,5 @@ Targets .NET 8. The binding is the deterministic fact core only.
 
 ## More
 
-- [NuGet](https://www.nuget.org/packages/WickraCopilot)
+- [NuGet](https://www.nuget.org/packages/Wickra.Copilot)
 - [Source & examples](https://github.com/wickra-lib/wickra-copilot/tree/main/examples/csharp)

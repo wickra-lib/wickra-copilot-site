@@ -116,7 +116,7 @@ export default defineConfig({
           { text: 'crates.io', link: 'https://crates.io/crates/wickra-copilot' },
           { text: 'PyPI', link: 'https://pypi.org/project/wickra-copilot/' },
           { text: 'npm', link: 'https://www.npmjs.com/package/wickra-copilot' },
-          { text: 'NuGet', link: 'https://www.nuget.org/packages/WickraCopilot' },
+          { text: 'NuGet', link: 'https://www.nuget.org/packages/Wickra.Copilot' },
           { text: 'Maven Central', link: 'https://central.sonatype.com/artifact/org.wickra/wickra-copilot' },
           { text: 'Go module', link: 'https://pkg.go.dev/github.com/wickra-lib/wickra-copilot-go' },
           { text: 'r-universe', link: 'https://wickra-lib.r-universe.dev' },
