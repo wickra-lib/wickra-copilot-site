@@ -51,7 +51,7 @@ const installTabs = [
   { label: 'C',      lang: 'bash', code: '# prebuilt header + library from GitHub releases:\n# github.com/wickra-lib/wickra-copilot/releases' },
   { label: 'C#',     lang: 'bash', code: 'dotnet add package WickraCopilot' },
   { label: 'Go',     lang: 'bash', code: 'go get github.com/wickra-lib/wickra-copilot-go' },
-  { label: 'Java',   lang: 'xml',  code: '<!-- Maven Central -->\n<dependency>\n  <groupId>org.wickra</groupId>\n  <artifactId>wickra-copilot</artifactId>\n  <version>0.1.1</version>\n</dependency>' },
+  { label: 'Java',   lang: 'xml',  code: '<!-- Maven Central -->\n<dependency>\n  <groupId>org.wickra</groupId>\n  <artifactId>wickra-copilot</artifactId>\n  <version>0.1.2</version>\n</dependency>' },
   { label: 'R',      lang: 'r',    code: 'install.packages("wickracopilot", repos = "https://wickra-lib.r-universe.dev")' },
 ]
 
